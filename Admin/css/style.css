@@ -1,0 +1,240 @@
+body {
+	margin: auto;
+	background-color: silver;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+
+}
+
+#TrangWeb {
+	
+	width: 1100px;
+	margin: auto;
+    background-color: white;
+}
+
+#PhanDau {
+	width: 1100px;
+	height: 120px;
+	background-image: url("images/banner.jpg");
+	
+	color:yellow;
+	font-size: 16px;
+	font-weight:bold;
+	
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+
+#PhanGiua {
+	width: 1100px;
+}
+
+#BenTrai {
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+}
+
+#BenTrai h3 {
+	font-size: 20px;
+	padding: 2px 0 0 5px;
+	margin-bottom: 0;
+	margin-top: 8px;
+	background-color: #228B22;
+	color: #ffffff;
+}
+
+#BenTrai ul {	
+	list-style-image: url(../images/li.gif);
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #228B22;
+}
+
+#BenTrai ul li a {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+#BenTrai ul li a:hover {
+	text-decoration: underline;
+	color: #ff0000;
+}
+
+#BenTrai ul li a:visited {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+#BenPhai {
+	width: 860px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#BenPhai h3 {
+	font-size: 20px;
+	padding: 2px 0 10px 0;
+	color: #4169E1;
+	font-family: Tahoma;
+	margin-top: 8px;
+	margin-bottom: 0;
+	text-shadow: 2px 2px 3px #00FF00;
+}
+
+#BenPhai h4 {
+	font-size: 15px;
+	padding: 2px 0 10px 0;
+	color: #008000;
+	font-family: Tahoma;
+	margin-top: 8px;
+	margin-bottom: 0;
+	text-shadow: 2px 2px 3px #FFD700;
+}
+
+#PhanCuoi {
+	width: 1100px;
+	clear: both;
+	height: 100px;
+	background: #1e90ff;
+}
+
+.lienhe{
+	text-align:center;
+	vertical-align: middle;
+	color:red;
+	font-size: 16px;
+	padding-top: 15px;
+	
+}
+
+.ThongBaoLoi {
+	padding: 0;
+	margin: 0;
+	color: #ff0000;
+}
+
+.ThongBao {
+	padding: 0;
+	margin: 0;
+	color: #0000ff;
+}
+
+table.Form {
+	border-collapse: collapse;
+}
+
+table.Form th {
+	border: 0px solid #778899;
+	padding: 3px 2px 3px 2px;
+}
+
+table.Form td {
+	border: 0px solid #778899;
+	padding: 3px 2px 3px 2px;
+}
+
+table.DanhSach {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.DanhSach th {
+	border: 1px solid #778899;
+	padding: 3px 2px 3px 2px;
+	background: #b0c4de;
+}
+
+table.DanhSach td {
+	border: 1px solid #778899;
+	padding: 3px 2px 3px 2px;
+}
+
+input[type=text], input[type=password] {
+	width: 300px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px dotted #808000;
+}
+
+select {
+	width: 300px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px dotted #808000;
+}
+
+textarea {
+	border-top: 1px dotted #808000;
+	border-left: 1px dotted #808000;
+	border-right: 1px dotted #808000;
+	border-bottom: 1px dotted #808000;
+}
+
+input[type=submit] {
+	margin-top: 8px;
+	border: 1px solid #808000;
+	padding: 3px 5px 3px 5px;
+	background-color: #98FB98;
+}
+
+input.error {
+	border-bottom: 1px solid #ff0000;
+}
+
+select.error {
+	border-bottom: 1px solid #ff0000;
+}
+
+textarea.error {
+	border-top: 1px solid #ff0000;
+	border-left: 1px solid #ff0000;
+	border-right: 1px solid #ff0000;
+	border-bottom: 1px solid #ff0000;
+}
+
+label.error {
+	color: #ff0000;
+}
+
+span.requirefield {
+	color: #FF0000;
+	font-size: 12px;
+}
+
+p.requirefields {
+	color: #FF0000;
+	font-style: italic;
+	font-size: 12px;
+	padding: 0;
+	margin: 3px 0px 3px 0px;
+}
+#phanphai
+{
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+#phanduoi
+{
+	
+    background: blue;
+    clear: both;
+    text-align: center;
+    color: white;
+    border-top: thin dashed #009933;
+}
+.khungmenu
+{
+    padding: 5px;
+}

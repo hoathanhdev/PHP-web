@@ -1,0 +1,64 @@
+#khungtrang{
+
+}
+
+#phantren{
+    height: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.tieude, .vaitro {
+    align-self: center;
+}
+
+#phangiua{
+    width: 100%;
+    border-top: solid 1px #009933;
+    margin: 0;
+}
+header{
+    
+}
+table{
+    border: solid 1px #009933;
+}
+.dong_form{
+    cursor: pointer;
+}
+.noidung_form{
+}
+.noidung_form_baiviet{
+    width: 800px;
+    position: absolute;
+    display: none;
+    background-color: aliceblue;
+    padding: 10px;
+    top: 100px;
+    left: 300px;
+}
+.noidung_form_baiviet h2{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+} 
+.control{
+    display: flex;
+    justify-content: space-between;
+    margin:2px 0;
+}
+.control .flex{
+    flex:1;
+}
+.control p {
+    width: 150px;
+}
+
+
+
+#phanduoi{
+
+}

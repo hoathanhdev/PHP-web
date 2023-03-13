@@ -1,0 +1,174 @@
+body
+{
+    background-color: silver;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+#khungtrang
+{
+    margin: auto;
+    width:1080px;
+    background-color: white;
+}
+#phantren
+{
+    width: 804px;
+    height: 100px;
+}
+#phanmenungang
+{
+    height: 35px;
+    background-color: #009933;
+    text-align: center;
+    color: white;
+}
+#phantrai
+{
+    float: left;
+    width: 175px;
+    border-right: thin solid #009933;
+}
+#phangiua
+{
+    float: left;
+    width: 750px;
+    text-align: center;
+    
+}
+#phanphai
+{
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+#phanduoi
+{
+	
+    background: blue;
+    clear: both;
+    text-align: center;
+    color: white;
+    border-top: thin dashed #009933;
+}
+a.link
+{
+	color: white;
+}
+a.phoht
+{
+	color: red;
+	font-weight: both;
+}
+
+/*---------------------dinh dang cho menu lien ket ngang------------------------*/
+a.menungang
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+	font-size: 12pt;
+}
+a.menungang:hover
+{ 
+    background: black;
+    text-decoration: underline;
+}
+
+/*Dinh dang cho menu lien ket doc*/
+.khungmenu
+{
+    padding: 5px;
+}
+.tieudemenu
+{
+    color: #009933;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: thin dashed #009933;
+}
+a.menu 
+{
+    text-decoration: none;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: darkblue;
+}
+a.menu:hover
+{
+    background-color: #009933;
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*Dinh dang cho sp giam gia*/
+.spgiamgia
+{
+    width: 140px;
+    border: thin solid #009933;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 5px; /*bo tròn các góc*/
+}
+.tenhang
+{
+    color: darkblue;
+    font-weight: bold;
+}
+.giagoc
+{
+    color: gray;
+    text-decoration: line-through; /*chữ gạch giữa*/
+}
+.giamgia 
+{
+    color: red;
+    font-weight: bold;
+}
+/*dinh dang cho bang va form*/
+
+table.bieumau
+{
+    margin: auto;
+    width: 400px;
+    border-collapse: collapse;/* chỉ còn đường viền duy nhất*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+td
+{
+    padding: 5px;
+}
+td.tieude
+{
+    color: #ffffff;
+    background-color: #009933;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+td.canhgiua
+{
+    text-align: center;
+}
+input[type="text"]
+{
+    width: 180px;
+}
+#vanban
+{
+	width: 730px;
+	border-bottom: thin solid #009933;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+   
+}
+a.me
+{
+	float: left;
+	
+}

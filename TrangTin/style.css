@@ -1,0 +1,369 @@
+/* RESET CSS */
+*{
+    box-sizing: border-box;
+    font-size:14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: baseline;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+li,ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* ĐỊNH DẠNG CÁC THÀNH PHẦN LỚN CHỨA */
+body
+{
+    background-color: silver;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+#khungtrang
+{
+    margin: auto;
+    width:1080px;
+    background-color: white;
+}
+
+/* ĐỊNH DẠNG CÁC THÀNH PHẦN NHỎ CHỨA */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#phantren_logo{
+    margin-right : 20px;
+}
+.phantren
+{
+    display: inline-block;
+    flex: 1;
+    margin: 20px;
+}
+#phantren_tt_lienhe{
+}
+#thongtin{
+    padding-left : 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 300;
+}
+div > i {       /*Chờ fix sau*/
+    padding-right: 10px;
+    height: 40px;
+}
+
+#phanmenungang
+{
+    height: 25px;
+    background-color: #009933;
+    text-align: center;
+    color: white;
+}
+/*---------------------dinh dang cho menu lien ket ngang------------------------*/
+#phanmenungang a {
+    padding: 0 4px;
+} 
+#phanmenungang a:hover {
+    font-size: 15px;
+}
+
+a.menungang, a.menungang_thoat
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+a.menungang:hover
+{
+    text-decoration: underline;
+}
+a.menungang_thoat
+{
+	text-decoration: none;
+    color: white;
+    font-weight: bold;
+	float: right;
+}
+a.menungang12:hover
+{
+    text-decoration: underline;
+}
+.form_dn {
+    width: 750px;
+    height: 25px;
+    float: left;
+}
+.btn_qmk {
+    width: 20%;
+    float: left;
+}
+.txt_tk{
+    width: 40%;
+    float: left;
+    
+}
+.txt_mk{
+    width: 40%;
+
+    float: left;
+  
+}
+.form_search{
+}
+
+
+#phantrai
+{
+    margin-top: 10px;
+    float: left;
+    width: 175px;
+    border-right: thin solid #009933;
+}
+#phantrai ul li a {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+#phantrai ul li a:hover {
+	text-decoration: underline;
+	color: #ff0000;
+}
+
+#phantrai ul li a:visited {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+/*Dinh dang cho menu lien ket doc*/
+.khungmenu
+{
+    padding: 5px;
+}
+.khungmenu ul,.khungmenuphai ul{
+    list-style-image: url(..images/li.gif);
+	margin-left: 0; 
+	margin-top: 0;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	border: 1px solid #228B22;
+}
+.khungmenu ul li a {
+	text-decoration: none;
+	color: #0000ff;
+}
+.tieudemenu
+{
+    font-size: 16px;
+	padding: 2px 0 0 5px;
+	margin-bottom: 0;
+	margin-top: 1px;
+	background-color: #228B22;
+	color: #ffffff;
+}
+a.menu 
+{
+    text-decoration: none;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: darkblue;
+}
+a.menu:hover
+{
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+#phangiua
+{
+    margin: 10px 10px;
+    float: left;
+    width: 730px;
+    text-align: center;
+    border-right: thin solid #009933;
+    padding-right: 10px;
+}
+.baiviet h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.baiviet .vanban {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    
+}
+.vanban .anhbaiviet {
+    margin-right: 5px;
+}
+
+#phanphai
+{
+    margin-top: 10px;
+    float: left;
+    width: 150px;
+}
+#phanphai .khungmenuphai {
+    list-style-image: url(..images/li.gif);
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 5px;
+	padding-bottom: 8px;
+}
+
+#phanphai div{
+    border-bottom: thin dashed #009933;
+}
+#phanphai .vaitro_nguoidung{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+#phanduoi
+{
+    clear: both;
+    text-align: center;
+    color: gray;
+    background-color: aqua;
+    border-top: thin dashed #009933;
+}
+
+
+
+
+/*Dinh dang cho sp giam gia*/
+.spgiamgia
+{
+    width: 140px;
+    border: thin solid #009933;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 5px; /*bo tròn các góc*/
+}
+.tenhang
+{
+    color: darkblue;
+    font-weight: bold;
+}
+.giagoc
+{
+    color: gray;
+    text-decoration: line-through; /*chữ gạch giữa*/
+}
+.giamgia 
+{
+    color: red;
+    font-weight: bold;
+}
+/*dinh dang cho bang va form*/
+
+table.bieumau
+{
+    margin: auto;
+    width: 400px;
+    border-collapse: collapse;/* chỉ còn đường viền duy nhất*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+td
+{
+    padding: 5px;
+}
+td.tieude
+{
+    color: #ffffff;
+    background-color: #009933;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+td.canhgiua
+{
+    text-align: center;
+}
+
+.noidung{
+    color: black;
+}
+
+/* Các thành phần đặc biệt , form ... */
+.noidung_form{
+}
+.noidung_form_baiviet{
+    width: 800px;
+    position: absolute;
+    display: none;
+    background-color: aliceblue;
+    padding: 10px;
+    top: 100px;
+    left: 300px;
+}
+.noidung_form_baiviet h2{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+} 
+.control{
+    display: flex;
+    justify-content: space-between;
+    margin:2px 0;
+}
+.control .flex{
+    flex:1;
+}
+.control p {
+    width: 150px;
+}
+
+#PhanMenu1{
+	width: 340px;
+	height: 30px;
+	color: white;
+	float:left;
+	background: #1e90ff;
+	
+	
+	
+}
+
+
+#PhanMenu2{
+	width: 385px;
+	height: 30px;
+	color: white;
+	float:left;
+	text-align:left;
+	vertical-align: middle;
+	background: #1e90ff;
+	font-size: 16px;
+	
+}
+
+#PhanMenu3{
+	width: 355px;
+	height: 30px;
+	color: white;
+	float:right;
+	background: #1e90ff;
+	font-size: 12px;
+}
+
+#PhanMenu3 form{
+    padding-top: 4px;
+}
